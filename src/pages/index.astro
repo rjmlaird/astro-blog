@@ -7,44 +7,42 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main class="prose mx-auto px-4 py-8">
+      <h1>👋 Hey, I’m Ryan Laird</h1>
+      <p>
+        Welcome to <strong>rjmlaird.dev</strong> — my digital workspace for building, testing, and documenting tools that bridge <strong>space, sustainability</strong>, and <strong>software development</strong>.
+      </p>
+      <p>
+        This site is where I experiment with integrations, automation workflows, and technical approaches that support sustainable growth in the space sector. It’s a reflection of my work in building smarter, leaner, and more ethical digital systems.
+      </p>
+
+      <h2>🛠️ What You’ll Find Here</h2>
+      <ul>
+        <li><strong>Project insights:</strong> technical breakdowns of dev tools and SaaS automations</li>
+        <li><strong>Custom workflows:</strong> syncing systems like HubSpot, Notion, Stripe, and beyond</li>
+        <li><strong>Space-sector dev:</strong> tools designed for transparency, tracking, and scalability</li>
+        <li><strong>Markdown-powered blog:</strong> thoughts on digital sustainability and developer ops</li>
+      </ul>
+
+      <h2>📚 Recent Work</h2>
+      <p>
+        You can browse live projects and dev logs under <a href="/projects">Projects</a>, or read in-depth posts in the <a href="/blog">Blog</a>. These include everything from SDG tracking dashboards to GitHub-integrated tooling for content pipelines.
+      </p>
+
+      <h2>📬 Get in Touch</h2>
+      <p>
+        I’m always interested in collaborations or conversations around <strong>tech for good</strong>, <strong>space systems</strong>, and the future of sustainable development tooling. Reach out at <a href="mailto:dev@rjmlaird.dev">dev@rjmlaird.dev</a> or connect via <a href="https://www.linkedin.com/in/ryanlaird/">LinkedIn</a>.
+      </p>
+
+      <p class="text-sm text-gray-500 mt-8">
+        © 2025 Ryan Laird. All rights reserved.
+      </p>
+    </main>
+    <Footer />
+  </body>
 </html>
