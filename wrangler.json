@@ -1,5 +1,5 @@
 {
-  "name": "rjmlaird-dev",
+  "name": "astro-blog",
   "compatibility_date": "2025-04-01",
   "compatibility_flags": ["nodejs_compat"],
   "main": "./dist/_worker.js/index.js",
